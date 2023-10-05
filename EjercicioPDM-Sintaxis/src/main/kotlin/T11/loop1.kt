@@ -1,22 +1,27 @@
 package T11
 
-private var FirstNumber:Int=0
-private var SecondNumber:Int=0
+private var FirstNumber:Int = 0
+private var SecondNumber:Int = 0
 
 
 private fun DataToAsk(){
     println("Introduce la base: ")
     FirstNumber = readLine()!!.toInt()
     println("Introduce el lado: ")
-    FirstNumber = readLine()!!.toInt()
+    SecondNumber = readLine()!!.toInt()
 }
 
 private fun Resolution() {
 
-    var surface:Int=0
-    for (i in 0..3){
+
+    var contador:Int=0
+    for (i in 0..2){
         DataToAsk()
-        surface= FirstNumber* SecondNumber/2
+        var surface= (FirstNumber * SecondNumber)/2
+        println("La superficie de este triangulo es = $surface")
+        if (surface > 12){
+            contador += 1
+        }
     }
 
 
