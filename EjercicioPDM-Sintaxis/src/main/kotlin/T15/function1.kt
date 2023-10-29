@@ -2,14 +2,14 @@ package T15
 
 
 
-fun DataToAsk(mensaje: String){
+private fun DataToAsk(mensaje: String){
     println("---------------------------------------")
     println(mensaje)
     println("---------------------------------------")
 }
 
 
-fun cargarSumar() {
+private fun cargarSumar() {
     print("Ingrese el primer valor:")
     val valor1 = readLine()!!.toInt()
     print("Ingrese el segundo valor:")

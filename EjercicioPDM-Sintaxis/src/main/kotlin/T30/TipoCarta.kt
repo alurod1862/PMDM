@@ -1,6 +1,5 @@
 package T30
 
-import T15.cargarSumar
 
 enum class TipoCarta(){
     DIAMAMNTE,

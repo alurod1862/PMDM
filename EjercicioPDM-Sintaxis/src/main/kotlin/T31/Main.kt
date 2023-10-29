@@ -1,7 +1,5 @@
 package T31
 
-import T15.cargarSumar
-import T29.Dado
 
 
 fun main() {
@@ -34,6 +32,8 @@ fun main() {
     dado.imprimr()
     println("Valor mayor")
     println(dado.mayor())
+
+
    }
 
 
